@@ -41,9 +41,7 @@ Set Salesforce Site URL for _Privacy Page Link_ and _Privacy Page URL_ fields.
 
 * From Setup, enter _Sites_ in the Quick Find box, then select **Sites**.
 * Highlight Salesforce Site URL from _Site URL_ column and copy it to a clipboard.
-* Switch to Lightning Experience.
-* Click **Apps** icon in a top-left corner of the page.
-* Select _Rapid GDPR_ app. The app's **Setup** tab will be opened.
+* Chose _Rapid GDPR_ app from a list of Salesforce apps. Open the app's **Setup** tab if it wasn't opened automatically.
 * Click on **General** subtab. Paste Salesforce Site URL into _URL_ field of _Force.com Site_ section.
 * Click **Save** button.
 
@@ -78,9 +76,7 @@ Set Salesforce Site URL for _Privacy Page Link_ and _Privacy Page URL_ fields.
 
 Create and attach _Individual_ records to existing _Leads_ and _Contacts_. Generate unique secure IDs for all existing _Leads_ and _Contacts._ This unique secure IDs will be stored in _Secure ID_ field and used to generate unique privacy page URL for each _Lead_ or _Contact._
 
-* Switch to Lightning Experience.
-* Click **Apps** icon in a top-left corner of the page.
-* Select _Rapid GDPR_ app. The app's **Setup** tab will be opened.
+* Chose _Rapid GDPR_ app from a list of Salesforce apps. Open the app's **Setup** tab if it wasn't opened automatically.
 * Click on **General** subtab.
 * Click **Create Individuals & Generate Secure IDs** button in _Individuals_ section.
 
