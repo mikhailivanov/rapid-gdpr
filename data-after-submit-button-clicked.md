@@ -6,7 +6,7 @@ Below you can find Objects Diagram. Records of those objects are created/updated
 
 When Data Subject clicks a _Submit & Confirm_ button on Privacy Page the following updates in Salesforce Database happen:
 
-### Submitted Privacy Source1
+### Submitted Privacy Source
 
 * If the Privacy Page submitted first time then a new _Submitted Privacy Source_ record is created. If the same Privacy Page submitted again then instead of creating a new _Submitted Privacy Source_ record an existing _Submitted Privacy Source_ record is updated. The following fields of the _Submitted Privacy Source_ record are set:
 
@@ -21,13 +21,15 @@ When Data Subject clicks a _Submit & Confirm_ button on Privacy Page the followi
 * For each consent request which Data Subject selected on the Privacy Page a new _Consent_ record is created. If consent for the same _Consent Request_ was given by the Data Subject before then instead of creating the new _Consent_ record an existing one is updated. The following fields of the _Consent_ record are set:
 
 | **Channel** | Channel of selected consent request. |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Consent Request** | Reference to the consent request which was selected. |
 | **Contact Point** | This field is set differently depend on _Point of Contact_ options preselected on _Setup_ \| _Consent Requests_ subtab for the consent request:  |
+| **End Date** | The field is set with the same value as _End Date_ of _Submitted Privacy Source_ if the consent is new. If the consent already exists and the field is empty or a value of the field is less then the _End Date_ of _Submitted Privacy Source_ then only it will be set with that _End Date_ of _Submitted Privacy Source_. |
 | **Frequency** | This field is set differently depend on _Frequency_ options preselected on _Setup_ \| _Consent Requests_ subtab for the consent request:  |
 | **Individual** | Individual which represents a current Data Subject. |
 | **Interest** | _Interest_ option which was preselected on _Setup_ \| _Consent Requests_ subtab for the consent request. If _-- Any Interest --_ option was preselected then this field will be blank. |
 | **Purpose** | _Purpose_ option which was preselected on _Setup_ \| _Consent Requests_ subtab for the consent request. If _-- Any Purpose --_ option was preselected then this field will be blank. |
+| **Submitted Date** | Date when Data Subject submitted the Privacy Page. |
 
 ### Individual
 
