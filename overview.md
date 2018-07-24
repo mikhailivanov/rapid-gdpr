@@ -1,9 +1,3 @@
----
-description: >-
-  There is a set of short videos you can watch to explore Rapid GDPR app. This
-  app is available in Lightning and Classic experiences.
----
-
 # Overview
 
 ## Public Privacy Page

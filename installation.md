@@ -1,7 +1,3 @@
----
-description: One time installation steps.
----
-
 # Installation
 
 ## Enable Individual object
