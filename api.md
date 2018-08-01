@@ -30,18 +30,18 @@ _requestActionInList_
 >             Label = 'Data Subject ID'
 >             Description = 'ID of a Lead or Contact who is giving permissions'
 >             Required = true)
->     public Id dataSubjectId;
+>     global Id dataSubjectId;
 > ​
 >     @InvocableVariable(
 >             Label = 'Privacy Source Name'
 >             Description = 'Unique name of Privacy Source the giving permissions will be associated with'
 >             Required = true)
->     public String privacySourceName;
+>     global String privacySourceName;
 > ​
 >     @InvocableVariable(
 >             Label = 'Consents JSON'
 >             Description = 'Consents the data subject gave in JSON format')
->     public String consentsJson;
+>     global String consentsJson;
 > }
 > ```
 
