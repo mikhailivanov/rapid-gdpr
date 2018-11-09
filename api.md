@@ -4,13 +4,13 @@ description: Contains methods to apply Data Subjects' consents programmatically.
 
 # API
 
-## Methods {#methods}
+## Methods <a id="methods"></a>
 
-### SubmitPrivacySource {#submitprivacysource}
+### SubmitPrivacySource <a id="submitprivacysource"></a>
 
 Submits consents of Consent Pack given by Data Subject.
 
-#### Signature {#signature}
+#### Signature <a id="signature"></a>
 
 ```java
 @InvocableMethod(Label = 'Submit Privacy Source')
@@ -18,7 +18,7 @@ global static void RGDPR.ApiSubmitPrivacySource.action(
         RGDPR.ApiSubmitPrivacySource.ActionRequest[] requestActionInList)
 ```
 
-#### Parameters {#parameters}
+#### Parameters <a id="parameters"></a>
 
 _requestActionInList_
 
@@ -73,7 +73,7 @@ _consentsJson parameter of ActionRequest_
 > ]
 > ```
 
-#### Examples {#examples}
+#### Examples <a id="examples"></a>
 
 _**Apex Code**_
 
