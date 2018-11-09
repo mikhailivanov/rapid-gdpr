@@ -10,8 +10,9 @@ When Data Subject clicks a _Submit & Confirm_ button on Privacy Page the followi
 
 * If the Privacy Page submitted first time then a new _Submitted Privacy Source_ record is created. If the same Privacy Page submitted again then instead of creating a new _Submitted Privacy Source_ record an existing _Submitted Privacy Source_ record is updated. The following fields of the _Submitted Privacy Source_ record are set:
 
-| **Privacy Source** | Privacy Page submitted by current Data Subject. |
+| Field | Description |
 | :--- | :--- |
+| **Privacy Source** | Privacy Page submitted by current Data Subject. |
 | **End Date** | Date when permissions given by current Data Subject will be expired. This date is identified by submitted date and a _Permissions Period_ which was set in _Setup_ of the Privacy Page. If _Permissions Period_ is not set then the _End Date_ field will be empty. |
 | **Individual** | Individual which represents a current Data Subject. |
 | **Submitted Date** | Date when Data Subject submitted the Privacy Page. |
