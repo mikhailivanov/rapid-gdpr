@@ -42,7 +42,7 @@ Set Salesforce Site URL for _Privacy Page Link_ and _Privacy Page URL_ fields.
 * From Setup, enter _Sites_ in the Quick Find box, then select **Sites**.
 * Highlight Salesforce Site URL from _Site URL_ column and copy it to a clipboard.
 * Choose _Rapid GDPR_ app from a list of Salesforce apps. Open the app's **Setup** tab if it wasn't opened automatically. If you can't find the Setup tab in Lightning Experience then [read this](installation.md#opened-rapid-gdpr-app-in-lightning-experience-but-setup-tab-is-not-there), please.
-* Click on **General** subtab. Paste Salesforce Site URL into _URL_ field of _Force.com Site_ section.
+* Go to **General** subtab. Paste Salesforce Site URL into _URL_ field of _Force.com Site_ section.
 * Click **Save** button.
 
 ## Setup sharing settings for Individual object
