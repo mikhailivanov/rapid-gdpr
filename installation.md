@@ -94,5 +94,5 @@ If you receive an error in the acknowledgement email then you can try to decreas
 
 ### Opened _Rapid GDPR_ app in _Lightning Experience_ but _Setup_ tab is not there.
 
-Make sure you finished a setup of _My Domain_. If it's so then go to your user profile and make _Setup_ tab visible.
+Make sure you finished a setup of _My Domain_. Then go to your user profile and make _Setup_ tab visible.
 
