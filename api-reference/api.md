@@ -4,7 +4,7 @@ description: Contains methods to apply Data Subjects' consents programmatically.
 
 # Submit Privacy Source
 
-## Methods 1 <a id="methods"></a>
+## Methods <a id="methods"></a>
 
 ### SubmitPrivacySource  <a id="submitprivacysource"></a>
 
