@@ -22,7 +22,8 @@ Enable _My Domain_ if it is not enabled yet. To do this follow the [steps](https
 ## Install Rapid GDPR app from AppExchange
 
 * Go to [AppExchange](https://appexchange.salesforce.com) and click **Get In Now** button.
-* Login to your Org with Administrator credentials  .
+* Login to your Org with Administrator credentials
+  .
 * Select _Install for All Users_ option and click **Install** button.
 
 ## Create and setup a Salesforce Site
@@ -89,10 +90,4 @@ This background process may fail because of Salesforce Limits. Usually it happen
 
 If you receive an error in the acknowledgement email then you can try to decrease a batch size in _Batch Size_ field and click **Create Individuals & Generate Secure IDs** button again.
 {% endhint %}
-
-## FAQ
-
-### Opened _Rapid GDPR_ app in _Lightning Experience_ but _Setup_ tab is not there.
-
-Make sure you finished a setup of _My Domain_. Then go to your user profile and make _Setup_ tab visible.
 
