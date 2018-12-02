@@ -1,4 +1,4 @@
 # Support
 
-### How to find Organization ID?
+## How to find Organization ID?
 

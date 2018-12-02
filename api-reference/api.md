@@ -1,7 +1,3 @@
----
-description: Contains methods to apply Data Subjects' consents programmatically.
----
-
 # API
 
 ## Methods <a id="methods"></a>

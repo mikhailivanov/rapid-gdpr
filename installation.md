@@ -23,7 +23,9 @@ Enable _My Domain_ if it is not enabled yet. To do this follow the [steps](https
 
 * Go to [AppExchange](https://appexchange.salesforce.com) and click **Get In Now** button.
 * Login to your Org with Administrator credentials
+
   .
+
 * Select _Install for All Users_ option and click **Install** button.
 
 ## Create and setup a Salesforce Site
@@ -42,7 +44,7 @@ Set Salesforce Site URL for _Privacy Page Link_ and _Privacy Page URL_ fields.
 
 * From Setup, enter _Sites_ in the Quick Find box, then select **Sites**.
 * Highlight Salesforce Site URL from _Site URL_ column and copy it to a clipboard.
-* Choose _Rapid GDPR_ app from a list of Salesforce apps. Open the app's **Setup** tab if it wasn't opened automatically. If you can't find the Setup tab in Lightning Experience then [read this](installation.md#opened-rapid-gdpr-app-in-lightning-experience-but-setup-tab-is-not-there), please.
+* Choose _Rapid GDPR_ app from a list of Salesforce apps. Open the app's **Setup** tab if it wasn't opened automatically. If you can't find the Setup tab in Lightning Experience then [read this](knowledge-base/installation.md), please.
 * Go to **General** subtab. Paste Salesforce Site URL into _URL_ field of _Force.com Site_ section.
 * Click **Save** button.
 
@@ -56,7 +58,7 @@ Set Salesforce Site URL for _Privacy Page Link_ and _Privacy Page URL_ fields.
 
 ## Modify Lead and Contact page
 
-[Edit](https://help.salesforce.com/articleView?id=accessing_layout_standard.htm) _Lead_ or _Contact_ page layout. 
+[Edit](https://help.salesforce.com/articleView?id=accessing_layout_standard.htm) _Lead_ or _Contact_ page layout.
 
 * Add a new _GDPR_ section. 
 * Add _Privacy Page Link_ and _Individual_ fields to the section.
@@ -68,7 +70,7 @@ Set Salesforce Site URL for _Privacy Page Link_ and _Privacy Page URL_ fields.
 
 ## Modify Individual page
 
-[Edit](https://help.salesforce.com/articleView?id=accessing_layout_standard.htm) _Individual_ page layout. 
+[Edit](https://help.salesforce.com/articleView?id=accessing_layout_standard.htm) _Individual_ page layout.
 
 * Add a new _GDPR_ section. 
 * Add _Profiling Allowed_ field to the section.
