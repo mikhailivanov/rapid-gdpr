@@ -2,15 +2,15 @@
 description: Contains methods to apply Data Subjects' consents programmatically.
 ---
 
-# API
+# Submit Privacy Source
 
-## Methods <a id="methods"></a>
+## Methods 1 <a id="methods"></a>
 
-### SubmitPrivacySource <a id="submitprivacysource"></a>
+### SubmitPrivacySource  <a id="submitprivacysource"></a>
 
 Submits consents of Consent Pack given by Data Subject.
 
-#### Signature <a id="signature"></a>
+#### Signature  <a id="signature"></a>
 
 ```java
 @InvocableMethod(Label = 'Submit Privacy Source')
@@ -18,7 +18,7 @@ global static void RGDPR.ApiSubmitPrivacySource.action(
         RGDPR.ApiSubmitPrivacySource.ActionRequest[] requestActionInList)
 ```
 
-#### Parameters <a id="parameters"></a>
+#### Parameters  <a id="parameters"></a>
 
 _requestActionInList_
 
@@ -73,7 +73,7 @@ _consentsJson parameter of ActionRequest_
 > ]
 > ```
 
-#### Examples <a id="examples"></a>
+#### Examples  <a id="examples"></a>
 
 _**Apex Code**_
 
@@ -104,7 +104,7 @@ You can call this method by REST API. You can read more [here](https://developer
 URL: /services/data/vXX.X/actions/custom/apex/RGDPR\_\_ApiSubmitPrivacySource
 
 {% hint style="warning" %}
-You must escape every "-character of consentsJson with \-character. See example below:
+You must escape every "-character of consentsJson with -character. See example below:
 {% endhint %}
 
 ```javascript

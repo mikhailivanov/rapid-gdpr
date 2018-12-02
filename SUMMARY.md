@@ -13,6 +13,9 @@
 
 ## API Reference
 
-* [API](api-reference/api.md)
-* [Data saved after submit button clicked](api-reference/data-after-submit-button-clicked.md)
+* [Submit Privacy Source](api-reference/api.md)
+
+## Objects Reference
+
+* [Data saved after submit button clicked](objects-reference/data-after-submit-button-clicked.md)
 
