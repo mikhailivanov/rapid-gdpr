@@ -2,7 +2,7 @@
 
 Below you can find Objects Diagram. Records of those objects are created/updated during Privacy Page submission:
 
-![Objects and fields which are updated after Submit &amp; Confirm button clicked](../.gitbook/assets/data-saved-after-submit-clicked%20%281%29.jpg)
+![Objects and fields which are updated after Submit &amp; Confirm button clicked](../../.gitbook/assets/data-saved-after-submit-clicked%20%281%29.jpg)
 
 When Data Subject clicks a _Submit & Confirm_ button on Privacy Page the following updates in Salesforce Database happen:
 

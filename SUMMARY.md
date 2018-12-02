@@ -14,5 +14,6 @@
 ## API Reference
 
 * [API](api-reference/api.md)
-* [Data saved after submit button clicked](api-reference/data-after-submit-button-clicked.md)
+* [Data saved after submit button clicked](api-reference/data-after-submit-button-clicked/README.md)
+  * [Test](api-reference/data-after-submit-button-clicked/test.md)
 
