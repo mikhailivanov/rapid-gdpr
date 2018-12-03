@@ -8,7 +8,7 @@ description: Contains methods to apply Data Subjects' consents programmatically.
 
 ### SubmitPrivacySource  <a id="submitprivacysource"></a>
 
-Submits consents of Consent Pack given by Data Subject.
+Submits consents of Privacy Source given by Data Subject.
 
 #### Signature  <a id="signature"></a>
 
