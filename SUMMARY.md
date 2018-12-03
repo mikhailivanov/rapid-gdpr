@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Home1](README.md)
-* [Overview](overview.md)
+* [Overview](README.md)
 * [Installation](installation.md)
 
 ## Knowledge Base
