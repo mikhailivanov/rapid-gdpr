@@ -72,21 +72,21 @@ Set Salesforce Site URL for _Privacy Page Link_ and _Privacy Page URL_ fields.
 * Add a new _GDPR_ section. 
 * Add _Profiling Allowed_ field to the section.
 
-## Prepare Leads and Contacts
+## Prepare Leads, Contacts or Person Accounts
 
-Create and attach _Individual_ records to existing _Leads_ and _Contacts_. Generate unique secure IDs for all existing _Leads_ and _Contacts._ This unique secure IDs will be stored in _Secure ID_ field and used to generate unique privacy page URL for each _Lead_ or _Contact._
+Create and attach _Individual_ records to existing _Leads_, _Contacts_ or _Person Accounts_. Generate unique secure IDs for all existing _Leads_, _Contacts_ or _Person Accounts._ This unique secure IDs will be stored in _Secure ID_ field and used to generate unique privacy page URL for each _Lead_, _Contact_ or _Person Account._
 
 * Chose _Rapid GDPR_ app from a list of Salesforce apps. Open the app's **Setup** tab if it wasn't opened automatically. If you can't find the Setup tab in Lightning Experience then [read this](knowledge-base/installation.md), please.
 * Click on **General** subtab.
-* Click **Create Individuals & Generate Secure IDs** button in _Individuals_ section.
+* Click **For Leads**, **For Contacts** or **For Accounts** button in _Individuals_ section.
 
 {% hint style="info" %}
-It takes some time in a background to process all _Leads_ and _Contacts_. Once it is done you will receive an acknowledgement email. Individual records will be created and attached to _Leads_ and _Contacts_ records and for each record a _Secure ID_ field will be populated.
+It takes some time in a background to process all _Leads_, _Contacts_ or _Person Accounts_. Once it is done you will receive an acknowledgement email. Individual records will be created and attached to _Leads_, _Contacts_ or _Person Accounts_ records and for each record a _Secure ID_ field will be populated.
 {% endhint %}
 
 {% hint style="warning" %}
-This background process may fail because of Salesforce Limits. Usually it happens when there are a lot of automation processes \(Apex Triggers, Process Builder Flows, etc.\) run on Lead or Contact record updates. By default it updates 50 records simultaneously.
+This background process may fail because of Salesforce Limits. Usually it happens when there are a lot of automation processes \(Apex Triggers, Process Builder Flows, etc.\) run on _Lead_, _Contact_ or _Person Account_ record updates. By default it updates 50 records simultaneously.
 
-If you receive an error in the acknowledgement email then you can try to decrease a batch size in _Batch Size_ field and click **Create Individuals & Generate Secure IDs** button again.
+If you receive an error in the acknowledgement email then you can try to decrease a batch size in _Batch Size_ field and click **For Leads**, **For Contacts** or **For Accounts** button again.
 {% endhint %}
 
