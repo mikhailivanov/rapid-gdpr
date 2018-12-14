@@ -22,10 +22,7 @@ Enable _My Domain_ if it is not enabled yet. To do this follow the [steps](https
 ## Install Rapid GDPR app from AppExchange
 
 * Go to [AppExchange](https://appexchange.salesforce.com) and click **Get In Now** button.
-* Login to your Org with Administrator credentials
-
-  .
-
+* Login to your Org with Administrator credentials.
 * Select _Install for All Users_ option and click **Install** button.
 
 ## Create and setup a Salesforce Site
