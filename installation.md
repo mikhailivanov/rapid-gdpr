@@ -15,9 +15,7 @@ You must enable _Individual_ object before installing Rapid GDPR managed package
 
 ## Register My Domain
 
-Rapid GDPR contains a set of Lightning components. For Salesforce Classic the components embedded into Visualforce pages. And Lightning components require _My Domain_ feature to be enabled.
-
-Enable _My Domain_ if it is not enabled yet. To do this follow the [steps](https://help.salesforce.com/articleView?id=domain_name_define.htm&type=5).
+If you will use Rapid GDPR in Lightning Experience you must enable _My Domain_ feature of Salesforce. To do this follow the [steps](https://help.salesforce.com/articleView?id=domain_name_define.htm&type=5).
 
 ## Install Rapid GDPR app from AppExchange
 
