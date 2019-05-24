@@ -8,7 +8,7 @@ description: One time installation steps.
 
 Rapid GDPR uses a new standard Salesforce object named _Individual_. You can read more about the object [here](https://help.salesforce.com/articleView?id=individuals_store_data_privacy.htm).
 
-You must enable _Individual_ object before installing Rapid GDPR managed package. Follow the steps to enable it:
+You must enable _Individual_ object before installing Rapid GDPR app. Follow the steps to enable it:
 
 1. From _Setup_, enter _Data Protection and Privacy_ in the _Quick Find_ box, and then select **Data Protection and Privacy**.
 2. Click **Edit** and select _Make data protection details available in records_ and click **Save**.
@@ -19,7 +19,7 @@ If you will use Rapid GDPR in Lightning Experience you must enable _My Domain_ f
 
 ## Install Rapid GDPR app from AppExchange
 
-* Go to [AppExchange](https://appexchange.salesforce.com) and click **Get In Now** button.
+* Go to [AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FvMxZUAV) and click **Get In Now** button.
 * Login to your Org with Administrator credentials.
 * Select _Install for All Users_ option and click **Install** button.
 
